@@ -31,11 +31,11 @@ function myButtonClicked() {
   const pgratedmovie = parseInt(document.getElementById("slider").value)
   const gratedmovie = parseInt(document.getElementById("slider").value)
 
-  if (slider.value > 17) {
+  if (slider.value >= 17) {
     document.getElementById("age").innerHTML = "Age is " + rratedmovie + " R rated movie"
   }
 
-  else if (slider.value > 13) {
+  else if (slider.value >= 13) {
     document.getElementById("age").innerHTML = "Age is " + pgratedmovie + " PG rated movie"
   }
 
