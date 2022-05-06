@@ -39,7 +39,7 @@ function myButtonClicked() {
     document.getElementById("age").innerHTML = "Age is " + pgratedmovie + " PG rated movie"
   }
 
-  if (slider.value < 13) {
+  else if (slider.value < 13) {
     document.getElementById("age").innerHTML = "Age is " + gratedmovie + " G rated movie"
   }
 }
